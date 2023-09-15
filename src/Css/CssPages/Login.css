@@ -1,0 +1,70 @@
+/* Estilos para telas pequenas */
+@media screen and (max-width: 576px) {
+  /* Adicione estilos específicos para telas pequenas (como smartphones) aqui */
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 45px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+
+  button {
+    margin-top: 5%;
+  }
+
+  label.input-group {
+  color: black !important;
+  background-color: white !important;
+  border-radius: 15px;
+  border-color: black !important;
+  margin-bottom: 20px;
+  }
+
+  input::placeholder {
+    color: black;
+  }
+
+  button {
+    background-color: rgb(255, 153, 0) !important;
+    width: 300px;
+  }
+
+  input {
+    height: 70px !important;
+    width: 300px;
+    border-color: rgba(0, 0, 0, 0.4) !important;
+  }
+
+  img.img-form {
+    background-color: rgb(255, 153, 0);
+    padding: 8px;
+  }
+
+  .test {
+    width: 350px;
+    margin: 50px 0px 100px 0px;
+  }
+}
